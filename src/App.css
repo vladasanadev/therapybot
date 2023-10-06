@@ -4,9 +4,7 @@ body {
   padding: 50px;
   font-family: 'Roboto', sans-serif; /* Apply the custom font */
 }
-h1,h2{
 
-}
 
 .container {
   width: 80%;
@@ -16,34 +14,56 @@ h1,h2{
   border-radius: 10px;
 }
 
+.form-container {
+  /* ... previous styles ... */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added box shadow effect */
+  padding: 30px;
+  border-radius: 10px !important;
 
-.form-group label {
+}
+
+
+/* .form-group label {
   color: #ffffff;
   padding: 20px 0;
-}
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added box shadow effect */
+ 
+
 .custom-font {
   font-family: 'Roboto', sans-serif;
 }
 #exampleFormControlTextarea1{
   margin: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added box shadow effect */
 }
 
 .form-control {
   border-radius: 10px;
 }
 
-.btn-primary {
-  border-radius: 10px;
-}
+
 
 /* Apply the provided color scheme to buttons */
-.btn-primary.first-color { background: #f8b595; }
+.btn-primary.first-color { background: #f8b595 !important; }
 .btn-primary.second-color { background: #f67280; }
-.btn-primary.third-color { background: #c06c84; }
+.btn-primary.third-color { background: #4e0c29; }
 .btn-primary.fourth-color { background: #6c5b7c; }
 
 /* Apply the provided color scheme to form text */
 .first-color-text { color: #f8b595; }
 .second-color-text { color: #f67280; }
-.third-color-text { color: #c06c84; }
+.third-color-text { color: #4e0c29; }
 .fourth-color-text { color: #6c5b7c; }
+.uppercase-text {
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background-color: #6c5b7c !important;
+  outline: none; /* Remove blue border on click */
+}
+
+.btn-primary {
+  border: none !important; /* Remove default Bootstrap border */
+  color: #f8b595; 
+  border-radius: 10px;
+}
