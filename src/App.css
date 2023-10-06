@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body {
+  background: linear-gradient(to right, #f8b595, #f67280, #c06c84, #6c5b7c);
+  color: #ffffff;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+h1,h2{
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-container{
+  width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group label {
+  color: #ffffff;
+  padding: 10px;
+}
+.custom-font {
+  font-family: 'Roboto', sans-serif;
+}
+#exampleFormControlTextarea1{
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control {
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary {
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Apply the provided color scheme to buttons */
+.btn-primary.first-color { background: #f8b595; }
+.btn-primary.second-color { background: #f67280; }
+.btn-primary.third-color { background: #c06c84; }
+.btn-primary.fourth-color { background: #6c5b7c; }
+
+/* Apply the provided color scheme to form text */
+.first-color-text { color: #f8b595; }
+.second-color-text { color: #f67280; }
+.third-color-text { color: #c06c84; }
+.fourth-color-text { color: #6c5b7c; }
